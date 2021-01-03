@@ -21,7 +21,7 @@ cargo build --release
 cd practice
 git init
 git add .
-git commit -m "init practice project"
+git commit -m "init practice of rust project"
 git remote add origin https://github.com/nateliu/practice.git
 git push -u origin main
 ```
