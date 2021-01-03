@@ -22,6 +22,6 @@ cd practice
 git init
 git add .
 git commit -m "init practice project"
-git remote add practice https://github.com/nateliu/practice.git
-git push -u practice master
+git remote add origin https://github.com/nateliu/practice.git
+git push -u origin main
 ```
