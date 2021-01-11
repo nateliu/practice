@@ -2,7 +2,9 @@
 
 // mod guess_num;
 
-mod web_server;
+// mod web_server;
+
+mod minigrep;
 
 // use learn_mods::print;
 // use learn_mods::vars;
@@ -22,7 +24,9 @@ mod web_server;
 
 // use guess_num::guess_number;
 
-use web_server::http_server;
+// use web_server::http_server;
+
+use minigrep::minigrep_impl;
 
 fn main() {
     // print::run();
@@ -43,5 +47,7 @@ fn main() {
 
     // guess_number::run();
 
-    http_server::run();
+    // http_server::run();
+
+    minigrep_impl::run();
 }
